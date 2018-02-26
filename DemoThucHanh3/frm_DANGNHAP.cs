@@ -25,5 +25,10 @@ namespace DemoThucHanh3
         {
             Application.Exit();
         }
+
+        private void txtDangNhap_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

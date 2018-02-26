@@ -62,15 +62,14 @@ namespace DemoThucHanh3
             }
         }
 
-        private void nhậpMặtHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        private void nhapMatHangToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!checkForm("frm_DANGNHAP"))
+            if (!checkForm("frm_QUANLYSANPHAM"))
             {
-                frm_DANGNHAP f = new frm_DANGNHAP();
+                frm_QUANLYSANPHAM f = new frm_QUANLYSANPHAM();
                 f.MdiParent = this;
                 f.Show();
             }
-
         }
     }
 }

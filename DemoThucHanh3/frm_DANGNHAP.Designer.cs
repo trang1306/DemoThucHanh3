@@ -61,6 +61,7 @@
             this.txtDangNhap.Name = "txtDangNhap";
             this.txtDangNhap.Size = new System.Drawing.Size(259, 29);
             this.txtDangNhap.TabIndex = 2;
+            this.txtDangNhap.TextChanged += new System.EventHandler(this.txtDangNhap_TextChanged);
             // 
             // txtPass
             // 
